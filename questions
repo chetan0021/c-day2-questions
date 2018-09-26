@@ -1,0 +1,59 @@
+1).What is #include <stdio.h>?
+ans:it means adding header file to your program. stdio.h (standard input output) file contains functions related to
+    the input/output operations like “printf”,”scanf” ,”getc”,”getchar” etc.Here “.h” extension refers to the header file.
+    You request to use a header file in your program by including it with the C preprocessing directive #include, 
+    like you have seen inclusion of stdio.h header file, which comes along with your compiler.
+
+2).What is main?
+ans:In C, the "main" function is treated the same as every function, it has a return type (and in some cases accepts inputs via parameters).
+    The only difference is that the main function is "called" by the operating system when the user runs the program. Thus the main 
+    function is always the first code executed when a program starts.
+    
+3).What is a variable?
+ans:A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, 
+    which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set 
+    of operations that can be applied to the variable. The name of a variable can be composed of letters, digits, and the underscore
+    character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive.
+4).What is a type of variable in c?
+ans:The C language demands that you declare the name of each variable that you are going to use and its type, or class, before you actually 
+    try to do anything with it.
+    The Programming language C has two main variable types:
+    i).Local Variables
+   ii).Global Variables
+    
+    i).Local Variables
+            Local variables scope is confined within the block or function where it is defined. Local variables must always be defined 
+       at the top of a block. When a local variable is defined - it is not initalised by the system, you must initalise it yourself.
+       When execution of the block starts the variable is available, and when the block ends the variable 'dies'.
+
+    ii).Global Variables
+            Global variable is defined at the top of the program file and it can be visible and modified by any function that may reference
+        it. Global variables are initalised automatically by the system when you define them!
+            
+       If same variable name is being used for global and local variable then local variable takes preference in its scope. But it is not a 
+     good practice to use global variables and local variables with the same name.
+     
+5).What is & operator?
+ans:&	is --> Binary AND Operator, which copies a bit to the result if it exists in both operands.
+    Logical Operators are used to combine two or more conditions/constraints or to complement the evaluation of the original condition 
+    in consideration. The result of the operation of a logical operator is a boolean value either true or false.
+6).What is %d in printf and scanf?
+ans:The printf() family of functions uses % character as a placeholder. When a % is encountered, printf reads the characters 
+    following the % to determine what to do.
+    %d means---> Take the next argument and print it as an int.
+    
+7).What is the meaning of compilation of a program?
+ans:Compilation is required to detect syntax and semantic errors in a program. compiler is a translator that converts high level
+    language into machine language so that it can be run on machine, because machine can't understand human readable language. 
+    basically program languages use two types of translator: compiler and interpreter. Compiler before executing a program generate
+    executable machine code and then executes it.
+8).What is the meaning of running a program?
+ans:after compilation we get a file known as object file which is machine language. Object file can be directly loaded into computer
+    memory and execute or run that. The process of loading object file and running that file is known as executing.
+9).List all syntax errors and reasons for the syntax errors.
+ans:Syntax errors: Errors that occur when you violate the rules of writing C/C++ syntax are known as syntax errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by compiler and thus are known as compile-time errors.
+   Most frequent syntax errors are:
+    i).Missing Parenthesis (})
+   ii).Printing the value of variable without declaring it
+   iii).Missing semicolon like this:
+    
